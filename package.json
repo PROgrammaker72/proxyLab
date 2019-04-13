@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 0",
     "start": "echo \"Error: no start specified\" && exit 0",
     "lint": "eslint --ignore-path .gitignore .",
-    "deploy": "now alias $(now --token $dev_secret) sync.mydeploy.com --token $dev_secret",
+    "deploy": "now alias $(now --token $proxy_token) sync.mydeploy.com --token $proxy_token",
     "build": "echo \"Error: no build specified\" && exit 0"
   },
   "repository": {
